@@ -31,7 +31,6 @@ public class Main {
                 Fisica f = new Fisica(nome, renda, saude);
 
                 impostos[i - 1] = f.calcularImposto();
-                total += impostos[i - 1];
             }
             else {
                 System.out.print("Número de funcionários: ");
@@ -40,9 +39,8 @@ public class Main {
                 Juridica j = new Juridica(nome, renda, func);
 
                 impostos[i - 1] = j.calcularImposto();
-                total += impostos[i - 1];
             }
-
+            total += impostos[i - 1];
         }
 
         System.out.println("\nIMPOSTOS PAGOS:");
