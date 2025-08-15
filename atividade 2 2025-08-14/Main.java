@@ -52,5 +52,6 @@ public class Main {
         }
 
         System.out.print("\nIMPOSTO TOTAL: R$ " + total);
+        sc.close();
     }
 }
