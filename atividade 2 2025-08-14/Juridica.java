@@ -15,26 +15,5 @@ public class Juridica {
         }
         return renda * 0.16;
     }
-
-    public String getNome() {
-        return nome;
-    }
-    public double getRenda() {
-        return renda;
-    }
-    public int getFunc() {
-        return func;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    public void setRenda(double renda) {
-        this.renda = renda;
-    }
-    public void setFunc(int func) {
-        this.func = func;
-    }
-
-
 }
+
